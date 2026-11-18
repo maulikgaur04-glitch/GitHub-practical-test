@@ -13,16 +13,11 @@
   <!-- navigation bar -->
   <header>
     <h2 class="logo">My Portfolio</h2>
-
-    <!-- hamburger button (only visible on small screens) -->
-    <button id="menuBtn" class="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
-
-    <nav id="navLinks">
-      <a href="#home">Home</a>
+    <nav>
       <a href="#about">About</a>
-      <a href="#projects" class="featured">&#9733; Featured</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-      <button id="themeBtn" aria-label="Toggle dark mode">Dark Mode</button>
+
     </nav>
   </header>
 
@@ -71,7 +66,24 @@
   </section>
 
   <footer>
-    <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>My Portfolio</h3>
+        <p>Student and beginner web developer.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <a href="#home" class="back-to-top">&#8593; Back to top</a>
+
+    <p class="footer-copy">&copy; <span id="year"></span> Maulik Gaur. All rights reserved.</p>
   </footer>
 
   <script src="subscript.js"></script>
