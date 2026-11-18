@@ -61,6 +61,13 @@ themeBtn.addEventListener("click", function () {
   setTheme(!document.body.classList.contains("dark"));
 });
 
+// ===== footer code =====
+// show the current year in the footer
+const yearSpan = document.getElementById("year");
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+}
+
 // ===== original code (unchanged) =====
 document.getElementById("toggleBtn").addEventListener("click", function () {
   const box = document.getElementById("details");
